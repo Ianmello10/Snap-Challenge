@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABO1BMVEUAAAD////////////////////////////////////////////////////////////////////////////////////////////////////////////////l9Pff8fS54ein2eOn2eL9/v684unr9vj7/f7c8PSl2eKHzNil2OLv+Prz+vue1eB3xdOq2uPm9Pf29/vy8/n3/Py13+eEyteZ097P6u/2+/zByeKOm8r8/f7u+Pq+4+qOz9uU0dzo9fjb4O5meLbh5fH0+vvV7fHx+fv8/P2Gk8Wbps+44eim2eLW2+xkdrXO1Oit3OWttthperja3u7u+Pn6+/2hrNJneLfFy+P7+/23v92IlcbN0ufx8/nj5/Kbp9BsfbltfrqAj8ORnsvg5PD+/v/v8ffQ1em0vduqtNfn6vS/61TcAAAAHHRSTlMAAAQqbK3Z8v0DN5ff+xqJ6jbC/kHBAjjp3qz8qSKHsgAAAAFiS0dEAf8CLd4AAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfiChMPAx5FOtlkAAABSUlEQVQ4y4WTZ2OCMBCGc4IMEXAPjB10771t7dLuXbv3/v+/oNigIYjN+4HcJU9CcgMhVxASxLAkK4oshUUhBIgVqBEtqmNXelSLqF4EwDBjmFHMNADoejyRxD4lE/EGAZCScICkFCGc/YHrDkHOACON2yhtOABkTNxWZgYQZHPeqWKH18tlAakas6ezi3E1FQl5Fuhm3LyARD0AsIs9vSSmIrJwC9DXPzA4NEx8C0ktwMjo2PiE3YgFkokxOdUEpmdm5+YXXEBGCjEWl5bpHVZKq2tlMq+gAjHWNza9r9jarpD5QuMX1Z3dv3Fvn72T3LzkweFRfSgd+xJGn3lyeuZ8K+csYNFAXVzWrqr+bDmBoqG+vqnd3t3bDOCE2push8en55fXNzZZTLrfPz6/vn+oX083t2C4JccvWm7Z8xuH33r85v2v/X8Bp/FiyVLnL/0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMTgtMTAtMTlUMTU6MDM6MzArMDI6MDCzEaEaAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE4LTEwLTE5VDE1OjAzOjMwKzAyOjAwwkwZpgAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==" />
+  
+  <title>Snap</title>
+  <link rel="stylesheet" href="./assets/index.e77e6293.css">
+</head>
+
+<body class="font-Myfont bg-almostWhite">
+
+  <div class="grid grid-cols-12 grid-flow-row relative  gap-2 overflow-hidden ">
+
+    <header class=" h-20 col-span-12 row-start-1 row-end-2 ">
+
+      <nav class=" w-full bg-almostWhite h-full  px-6 flex items-center justify-between  ">
+
+        <div class="w-auto lg:col-span-2  lg:ml-4">
+
+          <img src="./assets/logo.d51e21d9.svg" alt="">
+
+        </div>
+
+        <div id="Hamb" class="w-auto cursor-pointer z-10 -mt-1 lg:hidden">
+
+          <img src="./assets/icon-menu.766b6225.svg" alt="">
+
+        </div>
+
+        <div id="SideNav"
+          class="text-mySize text-mediumGray  absolute h-screen top-0 right-0 w-2/3  flex-col bg-almostWhite drop-shadow-2xl transition-transform translate-x-full ease-in-out duration-300 lg:hidden">
+          <ul class=" px-6 mt-14  h-full flex flex-col pt-5">
+            <li id="drop-list" class=" flex items-center h-auto w-auto">
+              <a href="#">Features</a>
+              <img class=" w-4  ml-2 " src="./assets/icon-arrow-down.ebad99bf.svg" alt="">
+            </li>
+            <!-- DropDown -->
+            <div id="dropDown" class="hidden  px-5 mt-1 py-2 flex-col justify-evenly  ">
+              <li class="px-1 py-1  h-8  mt-2 flex items-center">
+                <img class="w-5 mr-3" src="./assets/icon-todo.95927352.svg" alt="">
+                <a class="" href="#">Todo List</a> </li>
+              <li class="px-1 py-1 h-8  mt-2 flex items-center">
+                <img class="w-5 mr-3" src="./assets/icon-calendar.b34d000b.svg" alt="">
+                <a href="#">Calendar</a></li>
+              <li class="px-1 py-1 h-8 mt-2 flex items-center">
+                <img class="w-5 mr-3" src="./assets/icon-reminders.a5569ebc.svg" alt="">
+                <a href="#">Reminders</a></li>
+              <li class="px-1 py-1 h-8  mt-2 flex items-center">
+                <img class="w-5 mr-3" src="./assets/icon-planning.09cf89e5.svg" alt="">
+                <a href="#">Planning</a></li>
+            </div>
+            <li id="drop-list-2" class="mt-5 flex items-center h-auto  w-auto">
+              <a href="#">Company</a>
+              <img class=" w-4 ml-2 " src="./assets/icon-arrow-down.ebad99bf.svg" alt="">
+            </li>
+            <!-- DropDown -->
+            <div id="dropDown2" class="hidden px-5 mt-1 py-1 flex-col justify-evenly   ">
+              <li class="mt-1"><a href="#">History</a></li>
+              <li class="mt-1"><a href="#">Our Team</a></li>
+              <li class="mt-1"><a href="#">Blog</a></li>
+
+            </div>
+            <li class="mt-5"><a href="#">Careers</a></li>
+            <li class="mt-5"><a href="#">About</a></li>
+
+            <li class="mt-5 mx-auto"><button class="border-none">Login</button></li>
+            <li class="w-full mt-5 mx-auto"><button
+                class="p-2 w-full rounded-xl border-2 border-gray-500">Register</button></li>
+          </ul>
+        </div>
+
+        <!-- Nav desk -->
+        <ul
+          class="hidden lg:flex lg:justify-around  lg:w-1/3 md:h-full lg:items-center lg:col-start-6 lg:col-end-8 lg:-ml-72">
+
+          <div class="">
+          <li id="drop-list-3" class="flex items-center">
+            <a href="#">Features</a> 
+            <img class=" w-4 ml-1 cursor-pointer hover:rotate-180" src="./assets/icon-arrow-down.ebad99bf.svg" alt="">
+           </li>
+            <div id="dropDown3" class="opacity-0 -translate-y-4 transition-all ease-in duration-200 px-6  text-sm bg-white shadow-lg 
+            rounded-lg absolute py-2 pb-4  flex-col justify-evenly  mr-4 mt-3">
+           <li
+             class=" hover:bg-gray-100 rounded-sm transition-colors ease-in duration-200  px-1 py-1  h-8  mt-2 flex items-center">
+             <img class="w-4 mr-4 hover:bg-gray-100 rounded-sm transition-colors ease-in duration-200 "
+               src="./assets/icon-todo.95927352.svg" alt="">
+             <a href="#">Todo List</a> </li>
+           <li
+             class="hover:bg-gray-100 rounded-sm transition-colors ease-in duration-200  px-1 py-1 h-8  mt-2 flex items-center">
+             <img class="w-4 mr-4" src="./assets/icon-calendar.b34d000b.svg" alt="">
+             <a href="#">Calendar</a></li>
+           <li
+             class="hover:bg-gray-100 rounded-sm transition-colors ease-in duration-200  px-1 py-1 h-8 mt-2 flex items-center">
+             <img class="w-4 mr-4" src="./assets/icon-reminders.a5569ebc.svg" alt="">
+             <a href="#">Reminders</a></li>
+           <li
+             class="hover:bg-gray-100 rounded-sm transition-colors ease-in duration-200  px-1 py-1 h-8  mt-2 flex items-center">
+             <img class="w-4 mr-4" src="./assets/icon-planning.09cf89e5.svg" alt="">
+             <a href="#">Planning</a></li>
+         </div>
+        </div>
+          
+             <div class="">
+          <li id="drop-list-4" class="flex items-center">
+            <a href="#">Company</a>
+            <img class=" w-4 ml-1 cursor-pointer hover:rotate-180" src="./assets/icon-arrow-down.ebad99bf.svg" alt="">
+
+          </li>
+
+          <div id="dropDown4"
+            class="opacity-0 -translate-y-4 transition-all ease-in duration-200  px-6  text-sm   bg-white shadow-lg rounded-lg absolute py-5 flex-col justify-around mt-3 ml-3  ">
+            <li class="mt-1  px-1 py-1  hover:bg-gray-100 rounded-sm transition-colors ease-in duration-200 ">
+              <a href="#">History</a></li>
+            <li class="mt-3  px-1 py-1  hover:bg-gray-100 rounded-sm transition-colors ease-in duration-200 ">
+              <a href="#">Our Team</a></li>
+            <li class="mt-3  px-1 py-1  hover:bg-gray-100 rounded-sm transition-colors ease-in duration-200 ">
+              <a href="#">Blog</a></li>
+
+          </div>
+        </div>
+          <li class=""><a href="#">Careers</a></li>
+          <li class=""><a href="#">About</a></li>
+        </ul>
+
+        <ul class="hidden lg:flex lg:justify-around  lg:w-1/5 md:h-full lg:items-center">
+          <li><button class="border-none ">Login</button></li>
+          <li>
+            <button class="p-2 w-28 rounded-xl border-2 border-gray-500">Register</button>
+          </li>
+        </ul>
+      </nav>
+      <!-- Nav desk -->
+
+    </header>
+
+    <section class="col-span-12 lg:hidden ">
+
+      <article class="">
+
+        <img class="w-full " src="./assets/image-hero-mobile.b9d32923.png" alt="">
+
+
+
+      </article>
+    </section>
+
+    <section class="col-span-12  lg:col-span-5 lg:col-start-8 lg:col-end-12 lg:row-end-4 lg:row-start-2 lg:mt-12">
+
+      <article class="">
+
+        <img class="hidden lg:block lg:w-11/12 " src="./assets/image-hero-desktop.3bda6511.png" alt="">
+
+
+
+      </article>
+
+
+
+    </section>
+
+
+    <article
+      class="w-full col-span-12  row-start-3 row-end-4 lg:col-span-4 lg:col-start-2 lg:col-end-6  lg:row-start-2 lg:row-end-3 lg:flex lg:flex-col lg:items-start lg:justify-center lg:mt-20 lg:ml-10">
+      <h1 class="py-6 font-bold text-4xl text-center lg:text-left lg:text-6xl  ">Make <br>remote work</h1>
+      <p class="text-center -mt-1 px-4 text-mediumGray lg:px-0 lg:text-left lg:leading-8 lg:text-lg">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum voluptas
+        harum quidem exercitationem cupiditate </p>
+      <div class=" col-span-12 flex justify-center ">
+        <button class="p-3  w-32 mt-5 rounded-xl bg-almostBlack text-white font-bold lg:w-40 lg:mt-10 ">Learn
+          More</button>
+      </div>
+    </article>
+
+
+    <section
+      class="col-span-12 row-start-4 row-end-5 py-10    lg:col-span-4 lg:row-start-3 lg:row-end-4 lg:col-start-2 lg:col-end-7 lg:mt-14">
+      <div class="container flex items-center  p-3 justify-between h-14 lg:mt-0  lg:ml-8 ">
+        <div class="w-1/6 ">
+          <img class="w-full" src="./assets/client-audiophile.cdc1075f.svg" alt="">
+        </div>
+
+        <div class="w-1/6">
+          <img class="w-full" src="./assets/client-databiz.3098feb2.svg" alt="">
+        </div>
+
+        <div class="w-1/6 ">
+          <img class="w-full" src="./assets/client-meet.1cf19dba.svg" alt="">
+        </div>
+
+        <div class="w-1/6 ">
+          <img class="w-full" src="./assets/client-maker.a770212d.svg" alt="">
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
